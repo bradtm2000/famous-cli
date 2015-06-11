@@ -85,11 +85,11 @@ auto(function(){
     if (program.loglevel) {
         var loglevel = program.loglevel;
         if (loglevel === 1 || loglevel === 'verbose') {
-            process.env.FAMOUS_CLI_LOG_LEVEL = 1; 
+            process.env.FAMOUS_CLI_LOG_LEVEL = 1;
         } else if (loglevel === 2 || loglevel === 'debug') {
-            process.env.FAMOUS_CLI_LOG_LEVEL = 2 
+            process.env.FAMOUS_CLI_LOG_LEVEL = 2;
         } else {
-            process.env.FAMOUS_CLI_LOG_LEVEL = 0
+            process.env.FAMOUS_CLI_LOG_LEVEL = 0;
         }
     }
 
