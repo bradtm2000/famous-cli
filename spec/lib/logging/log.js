@@ -6,7 +6,7 @@ var logging = rewire('../../../lib/logging/log');
 
 test("famous cli logging module", function(t) {
 
-    t.plan(6);
+    t.plan(7);
 
     t.type(logging.DEBUG, 'function', 'autoupdate module should export a function');
     t.type(logging.WARN, 'function', 'autoupdate module should export a function');
